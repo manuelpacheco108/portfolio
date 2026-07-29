@@ -3,6 +3,11 @@ dist/
 *.tsbuildinfo
 scripts/out/
 
+# Raw screenshot sources (web versions live in public/projects/)
+/g-44.png
+/goSlides44.png
+/goStreet44.png
+
 # Secrets — service account keys must NEVER be committed
 *firebase-adminsdk*.json
 *service-account*.json

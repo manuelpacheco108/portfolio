@@ -82,6 +82,7 @@ export const es: Content = {
         tech: ["C#", "WPF", ".NET 8", "FFmpeg", "xUnit"],
         repoUrl: links.projects.g44Repo,
         availabilityNote: "Aplicación de escritorio para Windows",
+        image: "/projects/g44.webp",
         imageAlt: "Captura de pantalla de la interfaz del editor de video G-44",
       },
       {
@@ -98,6 +99,7 @@ export const es: Content = {
         tech: ["Node.js", "JavaScript"],
         repoUrl: links.projects.goSlides44Repo,
         availabilityNote: "Se ejecuta localmente — interfaz web o CLI",
+        image: "/projects/goslides44.webp",
         imageAlt: "Captura de pantalla de la herramienta GoSlides44 de markdown a pptx",
       },
     ],

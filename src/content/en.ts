@@ -82,6 +82,7 @@ export const en: Content = {
         tech: ["C#", "WPF", ".NET 8", "FFmpeg", "xUnit"],
         repoUrl: links.projects.g44Repo,
         availabilityNote: "Windows desktop application",
+        image: "/projects/g44.webp",
         imageAlt: "G-44 video editor interface screenshot",
       },
       {
@@ -98,6 +99,7 @@ export const en: Content = {
         tech: ["Node.js", "JavaScript"],
         repoUrl: links.projects.goSlides44Repo,
         availabilityNote: "Runs locally — web UI or CLI",
+        image: "/projects/goslides44.webp",
         imageAlt: "GoSlides44 markdown-to-pptx tool screenshot",
       },
     ],
