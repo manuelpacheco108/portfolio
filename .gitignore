@@ -1,6 +1,10 @@
 node_modules/
 dist/
 *.tsbuildinfo
+
+# Secrets — service account keys must NEVER be committed
+*firebase-adminsdk*.json
+*service-account*.json
 .firebase/
 *.log
 .env
