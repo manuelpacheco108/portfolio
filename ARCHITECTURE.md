@@ -103,7 +103,13 @@ Design tokens defined once in Tailwind theme:
 - **Phase 2 ✅** — bilingual content model written (`src/content/`): types, links, full EN + ES copy. Enriched from GitHub repos + live Go Street 44 site.
 - **Phase 3 ✅** (2026-07-28) — scaffold complete: Vite 8 + React 19 + TS 7 + Tailwind 4.3; deps installed incl. `thinking-orbs`, `motion`, `@fontsource-variable/inter`; `useLocale` hook + placeholder App wired to content model; production build passes (64 KB JS gz). Assets moved to `public/`. `git init` done (no commits yet). Firebase project **`manuel-pacheco-portfolio`** created; hosting site **`manuelpacheco`** claimed → site will serve at **https://manuelpacheco.web.app** (`firebase.json` targets it). Web app registered in console; config stored unwired in `src/lib/firebaseConfig.ts`. GitHub repo: **https://github.com/manuelpacheco108/portfolio** (public, pushed). GitHub Actions workflow active but **fails until `FIREBASE_SERVICE_ACCOUNT` secret is added** (run `firebase init hosting:github` once, or deploy manually via `npm run deploy`).
 - **Phase 4 ✅** (2026-07-28) — all six sections built against content model (Hero + lazy RandomOrb, Services, Projects, Skills, Experience, Contact), sticky navbar with scroll-spy + EN/ES toggle, footer, fade-in animations honoring `prefers-reduced-motion`. Logo optimized 3.3 MB → 399 KB (512 png, favicon/OG) + 2.4 KB 128px WebP (UI). Main JS 108 KB gz; orb in its own lazy 4.75 KB chunk. Service account key git-ignored and stored as `FIREBASE_SERVICE_ACCOUNT` repo secret → **CI/CD live: push to main auto-deploys**. **Site deployed and verified: https://manuelpacheco.web.app** (HTTP 200).
-- **Phase 5 (remaining polish)** — project screenshots (`public/projects/*.webp` — cards currently show styled name placeholder); full SEO pass (Open Graph image + tags, JSON-LD Person schema, `og:locale:alternate`); Lighthouse audit; enterprise `impact` metrics when provided; visual/responsive review in real browsers.
+- **Phase 5 ✅** (2026-07-28) — Go Street 44 live screenshot captured via headless Chrome (`scripts/screenshots.mjs`) onto its project card; G-44/GoSlides44 keep styled fallback (no public UI to shoot). Generated 1200×630 OG image (`scripts/og-image.mjs`). Full SEO: Open Graph + Twitter cards, canonical, JSON-LD Person, `og:locale:alternate` es_CO, robots.txt, sitemap.xml. Hero rendered statically (fade-in was delaying LCP 4.0s→1.9s). **Lighthouse (live, mobile-throttled): Performance 97 · Accessibility 100 · Best Practices 100 · SEO 100.** Desktop + mobile visually verified via screenshots.
+
+## 9. Post-launch backlog
+
+- [ ] Enterprise experience `impact` metrics (user will provide — field ready in content model)
+- [ ] G-44 and GoSlides44 screenshots (only Manuel can capture the desktop/local apps)
+- [ ] Optional later: custom domain, contact form (Firestore + `firebaseConfig.ts` is stored ready), analytics
 
 ## 8. Content Gaps (need from Manuel)
 
