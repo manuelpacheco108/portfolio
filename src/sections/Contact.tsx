@@ -2,7 +2,7 @@ import { useLocale } from "../hooks/useLocale";
 import { links } from "../content/links";
 import { Section } from "../components/ui/Section";
 import {
-  DownloadIcon,
+  /* DownloadIcon, */
   GitHubIcon,
   LinkedInIcon,
   MailIcon,
@@ -39,10 +39,10 @@ export function Contact() {
             <GitHubIcon className="h-4 w-4" />
             {contact.githubLabel}
           </a>
-          <a href={links.cvFile} download className={linkClass}>
+          {/* <a href={links.cvFile} download className={linkClass}>
             <DownloadIcon className="h-4 w-4" />
             {contact.cvLabel}
-          </a>
+          </a> */}
         </div>
         <p className="mt-6 text-sm text-muted">{links.email}</p>
       </FadeIn>

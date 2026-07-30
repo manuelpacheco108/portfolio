@@ -7,6 +7,10 @@ scripts/out/
 /g-44.png
 /goSlides44.png
 /goStreet44.png
+/HOW-TO-UPDATE.md
+/ARCHITECTURE.md
+/professional_profile_intake.md
+public\curriculumVitae_ManuelPacheco_ATS.pdf
 
 # Secrets — service account keys must NEVER be committed
 *firebase-adminsdk*.json

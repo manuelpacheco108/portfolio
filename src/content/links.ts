@@ -5,7 +5,7 @@ export const links = {
   github: "https://github.com/manuelpacheco108",
   linkedin: "https://www.linkedin.com/in/manuel-pacheco-motoa/",
   /** Served from public/ */
-  cvFile: "/curriculumVitae_ManuelPacheco_ATS.pdf",
+  /**cvFile: "/curriculumVitae_ManuelPacheco_ATS.pdf",
   /** 128px WebP for UI; full /manuelIcon.png (512) stays for favicon/OG */
   logo: "/manuelIcon-128.webp",
   projects: {

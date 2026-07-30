@@ -1,5 +1,5 @@
 import { useLocale } from "../hooks/useLocale";
-import { links } from "../content/links";
+//import { links } from "../content/links";
 import { RandomOrb } from "../components/ui/RandomOrb";
 
 // No entrance animation here: the hero holds the LCP element, and fading it
@@ -12,11 +12,11 @@ export function Hero() {
     <section id="top" className="border-b border-border bg-surface">
       <div className="mx-auto flex w-full max-w-5xl flex-col items-start gap-6 px-6 py-24 sm:py-32">
         <div className="flex items-center gap-4">
-          <img
+          {/* <img
             src={links.logo}
             alt="Manuel Pacheco logo"
             className="h-14 w-14 rounded-2xl"
-          />
+          /> */}
           <RandomOrb />
         </div>
         <div>

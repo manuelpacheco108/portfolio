@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { useLocale } from "../../hooks/useLocale";
 import { useScrollSpy } from "../../hooks/useScrollSpy";
-import { links } from "../../content/links";
+//import { links } from "../../content/links";
 import { cn } from "../../lib/cn";
+import { RandomOrb } from "../ui/RandomOrb";
 
 const SECTION_IDS = [
   "services",
@@ -23,7 +24,8 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-border bg-bg/90 backdrop-blur">
       <nav className="mx-auto flex h-16 w-full max-w-5xl items-center justify-between gap-4 px-6">
         <a href="#top" className="flex items-center gap-2" aria-label="Home">
-          <img src={links.logo} alt="" className="h-8 w-8 rounded-lg" />
+          {/* <img src={links.logo} alt="" className="h-8 w-8 rounded-lg" /> */}
+          <RandomOrb />
           <span className="text-sm font-semibold tracking-tight sm:text-base">
             Manuel Pacheco
           </span>

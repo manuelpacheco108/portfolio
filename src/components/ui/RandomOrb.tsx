@@ -6,12 +6,12 @@ const ThinkingOrb = lazy(() =>
 );
 
 const STATES: readonly OrbState[] = [
-  "working",
+  /* "working",
   "searching",
   "solving",
-  "listening",
+  "listening", */
   "composing",
-  "shaping",
+  // "shaping",
 ];
 
 /**
